@@ -1,0 +1,592 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+
+
+}
+
+.logo-signin {
+    width: 1045px;
+    height: 100%;
+    margin-left: 240px;
+
+}
+
+.logo-signin:hover {
+    cursor: pointer;
+}
+
+.header-logo {
+    width: 154px;
+    padding-top: 15px;
+}
+
+.sign-in-text {
+    float: right;
+    padding-top: 20px;
+    color: #868080;
+    margin-left: 474px;
+    font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+
+    border-bottom: 2px dotted #868080;
+}
+
+.sign-in-text:hover {
+    color: rgb(65, 65, 65);
+    border-bottom: 1px dashed rgb(88, 88, 88);
+}
+
+.p1 {
+    height: 400px;
+    width: 100%;
+    background-image: url(images/home-bg-lg.28863ee77ebc9098d2cb0d2e56753536.jpg);
+    background-size: cover;
+    background-position: -540px;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    margin-top: -1px;
+}
+
+.Location-box {
+    height: 273px;
+    width: 50%;
+    z-index: 2;
+    margin-top: -130px;
+    margin-left: 507px;
+}
+
+.Delivery {
+    width: 210px;
+    height: 60px;
+    background: white;
+    border-color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    float: left;
+}
+
+.Delivery:hover {
+    cursor: pointer;
+}
+
+.delivery-bike {
+    width: 32px;
+    margin-left: 55px;
+    margin-top: 15px;
+    float: left;
+}
+
+.Delivery-Text {
+    color: #DA291C;
+    margin-right: 56px;
+    float: right;
+    font-size: 17px;
+    margin-top: 18px;
+    font-weight: 500;
+    font-family: Sharp Sans Semibold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+
+}
+
+.collect-from-store {
+    width: 286px;
+    height: 51px;
+    background-color: #cdcdcd;
+    border-color: #ffffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    float: left;
+    margin-left: 1.5px;
+    margin-top: 9px;
+
+
+}
+
+.collect-from-store:hover {
+    cursor: pointer;
+}
+
+.collection {
+    width: 32px;
+    margin-left: 54.5px;
+    margin-top: 11px;
+    float: left;
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+}
+
+.collect-from-store-text {
+    font-family: Sharp Sans Semibold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    color: #DA291C;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 92px;
+    margin-top: 14px;
+    filter: grayscale(100%);
+}
+
+.delivery-details-main-box {
+
+    width: 497.5px;
+    height: 98%;
+    box-shadow: 0px 20px 20px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.nearest-hut {
+    font-family: Sharp Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.location-tests {
+    background: #ffffff;
+    width: 100%;
+    height: 74px;
+    float: right;
+    margin-top: -1px;
+}
+
+.nearest-hut {
+    font-family: sans-serif;
+    color: #181818;
+    font-weight: bold;
+    padding-left: 18px;
+    font-size: 19px;
+    font-stretch: extra-condensed;
+    padding-top: 11px;
+}
+
+.offers-text {
+    padding-left: 18px;
+    margin-top: -8px;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #231f20;
+    ;
+}
+
+.user-text-location {
+    width: 458px;
+    border: 1px solid #e7e7e7;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 17px;
+    border-radius: 2px;
+}
+
+.text-location {
+
+    width: 100%;
+    height: 55%;
+    background: white;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.location-search {
+    width: 100%;
+    height: 45%;
+    background: white;
+    border-bottom: 1px solid #e7e7e7;
+
+}
+
+.inp-location {
+    height: 40px;
+    margin-top: -96px;
+    float: left;
+    width: 438px;
+    margin-left: 11px;
+    border: none;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+input.inp-location:focus {
+
+    outline: none;
+
+}
+
+.location-img {
+    margin-top: -29px;
+    width: 14px;
+    float: left;
+    margin-left: 14px;
+}
+
+.find-location {
+    float: right;
+    margin-top: -33px;
+    margin-right: 280px;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    color: #65a1e6;
+}
+
+.location-search:hover {
+    cursor: pointer;
+}
+
+.pop-deals {
+    width: 100%;
+    height: 20px;
+
+    margin-top: 57px;
+}
+
+.pop-deals-text {
+    text-align: center;
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    margin-top: -10px;
+    margin-left: -15px;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    position: relative;
+}
+
+.pop-deals-text::before {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 1px;
+    position: absolute;
+    background: #cdcdcd;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+
+.pop-deals-text::after {
+    content: "";
+    display: block;
+    width: 615px;
+    height: 1px;
+    position: absolute;
+    background: #cdcdcd;
+    right: 19px;
+    margin-top: -14px;
+}
+
+.pop-deals-pic {
+    width: 100%;
+    height: 510px;
+
+}
+
+.p2 {
+    width: 525px;
+    height: 360px;
+
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 230px;
+
+
+}
+
+.p2-pic {
+    width: 100%;
+    height: auto;
+
+}
+
+.p3 {
+    width: 525px;
+    height: 360px;
+
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 765px;
+}
+
+.p3-pic {
+    width: 100%;
+    height: auto;
+}
+
+.p2-text-box {
+    width: 525px;
+    background: #3f3f3f;
+    height: 11px;
+
+    margin-top: -4px;
+    float: left;
+
+}
+
+.p2-text {
+    color: #eaeaea;
+    font-size: 10px;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    margin-top: -1px;
+    margin-left: 27px;
+    letter-spacing: 0.5px;
+}
+
+.p3-text-box {
+    width: 525px;
+    background: #3f3f3f;
+    height: 11px;
+
+    margin-top: -4px;
+
+
+}
+
+.p3-text {
+    color: #eaeaea;
+    font-size: 10px;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    margin-top: -12px;
+    margin-left: 27px;
+    letter-spacing: 0.5px;
+}
+
+.p2-pic:hover {
+    cursor: pointer;
+}
+
+.p3-pic:hover {
+    cursor: pointer;
+}
+
+.view-all-button {
+    margin-top: 418px;
+    margin-left: 230px;
+    width: 1062px;
+    height: 55px;
+    color: #ffffff;
+    background: rgb(30, 132, 30);
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.view-all-button:hover {
+    cursor: pointer;
+    background: rgb(35, 120, 35);
+}
+
+.footer {
+    width: 100%;
+    height: 536px;
+    background: #000000;
+}
+
+.table {
+    width: 1460px;
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+
+
+.footer-table-h4 {
+    color: #ffffff;
+    float: left;
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.footer-table-content {
+    color: #ffffff;
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+tbody tr {
+    line-height: 1.2;
+}
+
+.Apps {
+    width: 282px;
+    height: 37px;
+
+    margin-left: 608px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-store {
+    height: 100%;
+    width: 46%;
+
+}
+
+.play-store {
+    height: 100%;
+    width: 46%;
+
+}
+
+.app-store-img {
+    width: 100%;
+    height: 100%;
+}
+
+.pstore-img {
+    width: 100%;
+    height: 100%;
+}
+
+tbody:hover {
+    cursor: pointer;
+}
+
+.app-store:hover {
+    cursor: pointer;
+}
+
+.play-store:hover {
+    cursor: pointer;
+}
+
+.interact {
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+
+}
+
+.serve {
+    padding-top: 24px;
+    margin-left: 235px;
+    color: white;
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14.8px;
+    font-weight: 400;
+}
+
+.feedback {
+    margin-left: 445px;
+    margin-top: -47px;
+    float: left;
+    width: 140px;
+    height: 44px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: none;
+    font-weight: 100;
+    background: #e2e2e2;
+    color: #070707;
+}
+
+.feedback:hover {
+    cursor: pointer;
+    background: #cdcdcd;
+}
+
+.sm {
+    width: 137px;
+    height: 50px;
+    margin-top: -47px;
+
+    float: right;
+    margin-right: 406px;
+
+}
+
+.follow-us {
+    text-align: center;
+    margin-top: -7px;
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    letter-spacing: -0.2px;
+    color: white;
+    font-weight: 500;
+    font-size: 17.5px;
+}
+
+.social-media {
+
+    width: 100%;
+    height: 30px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.smpic {
+    width: 20px;
+    height: auto;
+}
+
+.smpic:hover {
+    cursor: pointer;
+}
+
+.quote {
+    font-size: 11.6px;
+    width: 100%;
+    color: rgb(132, 132, 132);
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.hurry-up {
+    font-size: 11.6px;
+    width: 100%;
+    color: rgb(132, 132, 132);
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.license {
+    font-size: 11.6px;
+    width: 100%;
+    color: rgb(132, 132, 132);
+    font-family: Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.fssai {
+    width: 100%;
+    margin-top: 18px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+}
+
+.fssai-pic {
+    height: 100%;
+
+}
+
+.border {
+    height: 100%;
+    background: white;
+    width: auto;
+    border-radius: 4px;
+}
+
+.p2:hover {
+    cursor: pointer;
+}
+
+.p1:hover {
+    cursor: pointer;
+}
